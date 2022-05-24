@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Adaptive Graphics</title>
+</head>
+<body>
+    <!-- <div class="adaptive-bg"></div> -->
+
+    <!-- <div class="img-bg">
+        <img src="images/bg-s.jpg" alt="" srcset="images/bg-m.jpg 2x, images/bg-l.jpg 3x">
+    </div> -->
+
+    <div class="pic-bg">
+        <picture>
+            <source media="(max-width: 800px)" srcset="bg-s.jpg">
+            <source media="(max-width: 1000px)" srcset="bg-m.jpg">
+            <source media="(min-width: 1001px)" srcset="bg-l.jpg">
+            <img src="bg-s.jpg" alt="aty">
+        </picture>
+    </div>
+    
+</body>
+</html>
